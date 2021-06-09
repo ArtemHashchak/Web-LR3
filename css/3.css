@@ -1,0 +1,50 @@
+#border_top{
+    width: 720px;
+    height: 80px;
+    border: 5px black;
+    flex-direction: row;
+    
+}
+#black{
+    background: #6D6262;
+}
+
+#border_element{
+    margin-left: 0px;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+     height: 3em;  
+  line-height: 3em;
+   
+}
+
+
+#chess {
+    width: 800px;
+    height: 800px;
+    margin-top: ;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#chess div {
+    float: left;
+    width: 80px;
+    height: 80px;
+   
+}
+
+/*#chess div:nth-child(-2n+8), 
+#chess div:nth-child(8) ~ div:nth-child(-2n+15), 
+#chess div:nth-child(16) ~ div:nth-child(-2n+24), 
+#chess div:nth-child(24) ~ div:nth-child(-2n+31), 
+#chess div:nth-child(32) ~ div:nth-child(-2n+40), 
+#chess div:nth-child(40) ~ div:nth-child(-2n+47), 
+#chess div:nth-child(48) ~ div:nth-child(-2n+56), 
+#chess div:nth-child(56) ~ div:nth-child(-2n+63) {
+    background-color: black;
+}
